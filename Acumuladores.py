@@ -23,11 +23,11 @@ numeroIngresado = int(input('Ingrese un número: '))
 while numeroIngresado != 0:
 	# Verificamos si el número ingresado es par
 	if numeroIngresado % 2 == 0:
-		# De ser un número par, aumentamos el contador de números pares
+		# De ser un número par, sumamos el número ingresado al acumulador de números pares
 		acumPares = acumPares + numeroIngresado
 	else:
 		# De no ser un número par, entonces, es un número impar
-		# y aumentamos el contador de números impares
+		# y sumamos el número ingresado al acumulador de números impares
 		acumImpares = acumImpares + numeroIngresado
 	# Luego, le pedimos otro número al usuario, hasta que este ingrese un número cero (0)
 	numeroIngresado = int(input('Ingrese otro número: '))
